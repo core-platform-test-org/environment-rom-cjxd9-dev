@@ -1,39 +1,83 @@
 autoUpdate:
   enabled: false
   schedule: ""
+bootConfigURL: https://github.com/cloudbees/cloudbees-jenkins-x-boot-config.git
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: true
-  project: ""
   azure: {}
+  clusterName: rom-cjxd9
+  devEnvApprovers:
+  - romainverduci
+  environmentGitOwner: core-platform-test-org
+  environmentGitPublic: true
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  project: apps-dev-229310
   provider: gke
-  zone: ""
-gitops: true
+  registry: gcr.io
+  zone: europe-west1-b
 environments:
-  - key: dev
-  - key: staging
-  - key: production
+- ingress:
+    domain: 34.77.187.113.nip.io
+    externalDNS: false
+    namespaceSubDomain: -jx.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: dev
+  repository: environment-rom-cjxd9-dev
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+  repository: environment-rom-cjxd9-staging
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+  repository: environment-rom-cjxd9-production
+gitops: true
 ingress:
-  domain: ""
+  domain: 34.77.187.113.nip.io
   externalDNS: false
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
     production: false
 kaniko: true
+repository: nexus
 secretStorage: vault
 storage:
+  backup:
+    enabled: false
+    url: ""
   logs:
     enabled: true
-    url: ""
+    url: gs://rom-cjxd9-logs-c3f07ad8-363f-4e5e-9f2c-1ae33d98cf6c
   reports:
     enabled: true
-    url: ""
+    url: gs://rom-cjxd9-reports-ac769141-70fc-41ff-9a49-77a32b89358e
   repository:
     enabled: true
-    url: ""
+    url: gs://rom-cjxd9-repository-bfedb259-7bf0-40ce-8fba-1c4292a587
+vault: {}
+velero:
+  schedule: ""
+  ttl: ""
 versionStream:
-  ref: 2.1.13+cjxd.9
+  ref: v0.0.31
   url: https://github.com/cloudbees/cloudbees-jenkins-x-versions.git
 webhook: prow
