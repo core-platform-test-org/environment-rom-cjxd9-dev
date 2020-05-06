@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: romainverduci
+  repo: rom-qs-cjxd
+  url: https://github.com/romainverduci/rom-qs-cjxd.git
+  version: ""
+  versionURL: ""
