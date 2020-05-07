@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/core-platform-test-org/qs-cjxd-node.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: core-platform-test-org
+  repo: qs-cjxd-node-2
+  url: https://github.com/core-platform-test-org/qs-cjxd-node-2.git
+  version: ""
+  versionURL: ""

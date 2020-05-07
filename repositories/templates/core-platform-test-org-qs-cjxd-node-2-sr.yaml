@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: qs-cjxd-node-2
+  name: core-platform-test-org-qs-cjxd-node-2
+spec:
+  description: Imported application for core-platform-test-org/qs-cjxd-node-2
+  httpCloneURL: https://github.com/core-platform-test-org/qs-cjxd-node-2.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: qs-cjxd-node-2
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/qs-cjxd-node-2.git
