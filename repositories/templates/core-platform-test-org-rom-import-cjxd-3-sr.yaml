@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: rom-import-cjxd-3
+  name: core-platform-test-org-rom-import-cjxd-3
+spec:
+  description: Imported application for core-platform-test-org/rom-import-cjxd-3
+  httpCloneURL: https://github.com/core-platform-test-org/rom-import-cjxd-3.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: rom-import-cjxd-3
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/rom-import-cjxd-3.git
