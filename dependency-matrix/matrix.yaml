@@ -35,3 +35,9 @@ dependencies:
   url: https://github.com/corinnekrych/eeeees.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ARomainv
+  repo: test
+  url: https://github.com/ARomainv/test.git
+  version: ""
+  versionURL: ""
