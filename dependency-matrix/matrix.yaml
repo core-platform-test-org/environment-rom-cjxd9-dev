@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/core-platform-test-org/rom-import-cjxd-3.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: eeeees
+  url: https://github.com/corinnekrych/eeeees.git
+  version: ""
+  versionURL: ""
