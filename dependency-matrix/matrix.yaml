@@ -47,3 +47,9 @@ dependencies:
   url: https://github.com/romainverduci/rom16.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: romainverduci
+  repo: rom17
+  url: https://github.com/romainverduci/rom17.git
+  version: ""
+  versionURL: ""
