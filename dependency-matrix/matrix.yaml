@@ -41,3 +41,9 @@ dependencies:
   url: https://github.com/ARomainv/test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: romainverduci
+  repo: rom16
+  url: https://github.com/romainverduci/rom16.git
+  version: ""
+  versionURL: ""
