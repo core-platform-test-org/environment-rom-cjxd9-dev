@@ -71,3 +71,9 @@ dependencies:
   url: https://github.com/romainverduci/rom23.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: romainverduci
+  repo: rom-import-1
+  url: https://github.com/romainverduci/rom-import-1.git
+  version: ""
+  versionURL: ""
