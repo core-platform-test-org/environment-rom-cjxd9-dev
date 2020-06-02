@@ -16,3 +16,4 @@ Dependency | Sources | Version | Mismatched versions
 [romainverduci/rom23](https://github.com/romainverduci/rom23.git) |  | []() | 
 [romainverduci/rom-import-1](https://github.com/romainverduci/rom-import-1.git) |  | []() | 
 [romainverduci/rom-import-2](https://github.com/romainverduci/rom-import-2.git) |  | []() | 
+[romainverduci/rom-import-3](https://github.com/romainverduci/rom-import-3.git) |  | []() | 
