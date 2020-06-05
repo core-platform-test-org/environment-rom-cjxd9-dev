@@ -95,3 +95,9 @@ dependencies:
   url: https://github.com/romainverduci/rom-import-4.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: CorinneOrg
+  repo: ccc
+  url: https://github.com/CorinneOrg/ccc.git
+  version: ""
+  versionURL: ""

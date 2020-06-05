@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: CorinneOrg
+    provider: github
+    repository: ccc
+  name: corinneorg-ccc
+spec:
+  description: Imported application for CorinneOrg/ccc
+  httpCloneURL: https://github.com/CorinneOrg/ccc.git
+  org: CorinneOrg
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ccc
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/CorinneOrg/ccc.git
